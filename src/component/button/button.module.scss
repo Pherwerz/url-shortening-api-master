@@ -1,0 +1,48 @@
+.button {
+  font-size: 1.6rem;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  transition: all 0.2s;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+
+  &Att {
+    border: 2px solid #00f;
+
+    &:hover {
+      background-color: #00f;
+      border: 2px solid #fff;
+    }
+  }
+
+  &Nor {
+    background-color: #f00;
+    border: 2px solid #fff;
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid #f00;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &:focus {
+    outline: none;
+    transform: scale(1);
+  }
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
