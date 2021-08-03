@@ -49,11 +49,14 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+.container {
+  width: 114rem;
+  margin: 0 auto;
+}
 </style>
 
- <!-- Features
-  Pricing
-  Resources
+ <!--
 
   Login
   Sign Up
